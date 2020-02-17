@@ -12,7 +12,7 @@
         {
             if (point == null) throw new ArgumentNullException(nameof(point));
             
-            return new Point(point.Coordinates.X, point.Coordinates.Y);
+            return new Point(point.Coordinates.Y, point.Coordinates.X);
         }
 
         public GeoJsonPoint<GeoJson2DCoordinates> ToModel(Point point)
@@ -20,7 +20,7 @@
             if (point == null) throw new ArgumentNullException(nameof(point));
 
             return new GeoJsonPoint<GeoJson2DCoordinates>(
-                new GeoJson2DCoordinates(point.Lat, point.Lng)
+                new GeoJson2DCoordinates(point.Lng, point.Lat)
                 );
         }
 
@@ -36,7 +36,7 @@
 
                 foreach(var p in mp.Exterior.Positions)
                 {
-                    points.Add(new Point(p.X, p.Y));
+                    points.Add(new Point(p.Y, p.X));
                 }
 
                 polygons.Add(new Polygon(points));
@@ -57,7 +57,7 @@
 
                 foreach(var point in polygon.First())
                 {
-                    geoJson2DCoordinatesList.Add(new GeoJson2DCoordinates(point.Lat, point.Lng));
+                    geoJson2DCoordinatesList.Add(new GeoJson2DCoordinates(point.Lng, point.Lat));
                 }
 
                 geoJsonPolygonCoordinatesList.Add(

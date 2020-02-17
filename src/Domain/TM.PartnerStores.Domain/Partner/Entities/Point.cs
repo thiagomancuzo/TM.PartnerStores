@@ -15,7 +15,7 @@ namespace TM.PartnerStores.Domain.Partner.Entities
             Lat = lat;
             Lng = lng;
 
-            values = new List<double>(new[] { lat, lng });
+            values = new List<double>(new[] { lng, lat });
         }
 
         public Point(IEnumerable<double> values)
@@ -24,8 +24,8 @@ namespace TM.PartnerStores.Domain.Partner.Entities
 
             if (valuesList.Count != 2) throw new InvalidPointException($"The values array has an invalid length. The Point values parameter length must to be equals 2.");
 
-            Lat = valuesList[0];
-            Lng = valuesList[1];
+            Lng = valuesList[0];
+            Lat = valuesList[1];
         }
 
         public double Lat { get; private set; }

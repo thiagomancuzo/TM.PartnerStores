@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+    web:
+        build: 
+            context: ./../../../
+            dockerfile: src/Platform/TM.PartnerStores.Platform/Dockerfile
+        ports:
+            - "12312:80"
+        depends_on:
+            - mongo
+        environment: 
+            "MongoDBConnectionSettings:ConnectionString": "mongodb://mongo:27017"
+    mongo:
+        image: mongo
+        ports: 
+            - "12313:27017"
+        restart: always
