@@ -51,6 +51,16 @@ namespace TM.PartnerStores.Domain.Partner.Entities
                 && this.Lng == other.Lng;
         }
 
+        public override int GetHashCode()
+        {
+            return Lat.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return $"Lat={Lat},Lng={Lng}";
+        }
+
         public static bool operator ==(Point left, Point right) => left.Equals(right);
 
         public static bool operator !=(Point left, Point right) => !left.Equals(right);
