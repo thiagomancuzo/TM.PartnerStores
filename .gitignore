@@ -338,3 +338,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Sonar Qube files
+.sonarqube/
+
+*opencover.xml

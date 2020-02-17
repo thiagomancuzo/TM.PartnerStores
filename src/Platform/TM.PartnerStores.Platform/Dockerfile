@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj", "src/Platform/TM.PartnerStores.Platform/"]
 RUN dotnet restore "src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
 COPY . .
-WORKDIR "/src/src/Platform/TM.PartnerStores.Platform"
+WORKDIR /src/src/Platform/TM.PartnerStores.Platform
 RUN dotnet build "TM.PartnerStores.Platform.csproj" -c Release -o /app/build
 
 FROM build AS publish
