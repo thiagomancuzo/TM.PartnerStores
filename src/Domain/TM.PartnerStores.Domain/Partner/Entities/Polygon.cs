@@ -13,7 +13,7 @@
 
         public Polygon(IEnumerable<Point> points)
         {
-            this.points = points.ToList();
+            this.points = points?.ToList() ?? throw new ArgumentNullException(nameof(points));
             this.pointWrapper = new List<List<Point>>
             {
                 new List<Point>(points)
@@ -24,7 +24,7 @@
 
         public Polygon(IEnumerable<IEnumerable<IEnumerable<double>>> values)
         {
-            points = values.First().Select(v => new Point(v)).ToList();
+            points = values?.First().Select(v => new Point(v)).ToList() ?? throw new ArgumentNullException(nameof(values));
             this.pointWrapper = new List<List<Point>>
             {
                 new List<Point>(points)

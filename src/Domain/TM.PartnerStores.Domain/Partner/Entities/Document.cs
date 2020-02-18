@@ -8,7 +8,7 @@ namespace TM.PartnerStores.Domain.Partner.Entities
 
         private Document(string value)
         {
-            this.value = value ?? throw new ArgumentNullException(nameof(value)); ;
+            this.value = value ?? throw new ArgumentNullException(nameof(value));
 
             ThrowIfInvalidDocument(value);
         }

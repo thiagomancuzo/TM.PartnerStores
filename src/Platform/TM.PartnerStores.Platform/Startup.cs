@@ -1,31 +1,24 @@
-using System;
-using System.Buffers;
-using System.Buffers.Text;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using TM.PartnerStores.Application.Contracts;
-using TM.PartnerStores.Application.Partner.Models.PartnerList;
-using TM.PartnerStores.IoC;
-using TM.PartnerStores.Repository.MongoDB.Migration;
-using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using Microsoft.OpenApi.Models;
-
 namespace TM.PartnerStores.Platform
 {
+    using System;
+    using System.Buffers;
+    using System.Buffers.Text;
+    using System.IO;
+    using System.Linq;
+    using System.Text.Json;
+    using System.Text.Json.Serialization;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using TM.PartnerStores.Application.Contracts;
+    using TM.PartnerStores.Application.Partner.Models.PartnerList;
+    using TM.PartnerStores.IoC;
+    using TM.PartnerStores.Repository.MongoDB.Migration;
+    using Microsoft.OpenApi.Models;
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -89,7 +82,7 @@ namespace TM.PartnerStores.Platform
         private async Task StoreInitialLoad(IPartnerApplicationService partnerApplicationService)
         {
             var data = File.ReadAllText("pdvs.json");
-            var options = new System.Text.Json.JsonSerializerOptions
+            var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };

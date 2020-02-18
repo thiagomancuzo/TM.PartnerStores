@@ -41,8 +41,8 @@ and access http://localhost:12312/partners
 
 Requirements:
 
-- VSCode
-- dotnet SDK (v3.1)
+- [VSCode](https://code.visualstudio.com/download)
+- [dotnet SDK (v3.1)](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.101-windows-x64-installer)
 - mongodb (or an already running container image)
 
 In the folder `src/Platform/TM.PartnerStores.Platform/`, run:
@@ -69,4 +69,24 @@ GET  `/partners/{id}` - retrieve one partner by id
 GET  `/partners/search?lng={lng}&lat={lat}` - search one partner by geo position  
 
 
+### Testing
 
+Run tests with  
+
+```bash
+dotnet test src/UnitTests/TM.PartnerStores.UnitTests/TM.PartnerStores.UnitTests.csproj
+```
+
+or 
+
+```bash
+dotnet tool install --global coverlet.console --version 1.7.0
+dotnet test src/UnitTests/TM.PartnerStores.UnitTests/TM.PartnerStores.UnitTests.csproj  /p:CollectCoverage=true
+```
+
+this 2nd command generates a table with code coverage table.  
+The tests was written for domain layer, that is the one that have most sensitive rules.
+
+| Module                              | Line   | Branch | Method |
+|-------------------------------------|--------|------- |--------|
+| TM.PartnerStores.Domain             | 80%    | 92%    | 79,59% |

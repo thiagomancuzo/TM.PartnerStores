@@ -1,0 +1,2767 @@
+{
+  "TM.PartnerStores.Application.dll": {
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\PartnerApplicationService.cs": {
+      "TM.PartnerStores.Application.Partner.PartnerApplicationService": {
+        "System.Void TM.PartnerStores.Application.Partner.PartnerApplicationService::.ctor(TM.PartnerStores.Application.Contracts.IPartnerApplicationServiceParser,TM.PartnerStores.Domain.Services.IPartnerService)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "TM.PartnerStores.Application.Partner.PartnerApplicationService/<CreateAsync>d__3": {
+        "System.Void TM.PartnerStores.Application.Partner.PartnerApplicationService/<CreateAsync>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 17,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 17,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 75,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Application.Partner.PartnerApplicationService/<GetByIdAsync>d__4": {
+        "System.Void TM.PartnerStores.Application.Partner.PartnerApplicationService/<GetByIdAsync>d__4::MoveNext()": {
+          "Lines": {
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 17,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 17,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 59,
+              "EndOffset": 128,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 173,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Application.Partner.PartnerApplicationService/<ListAsync>d__5": {
+        "System.Void TM.PartnerStores.Application.Partner.PartnerApplicationService/<ListAsync>d__5::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 17,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 17,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 53,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Application.Partner.PartnerApplicationService/<SearchAsync>d__6": {
+        "System.Void TM.PartnerStores.Application.Partner.PartnerApplicationService/<SearchAsync>d__6::MoveNext()": {
+          "Lines": {
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 17,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 17,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 75,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 189,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\Models\\GeoJson.cs": {
+      "TM.PartnerStores.Application.Partner.Models.GeoJson`1": {
+        "TM.PartnerStores.Application.Partner.Models.GeoJsonType TM.PartnerStores.Application.Partner.Models.GeoJson`1::get_Type()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "T TM.PartnerStores.Application.Partner.Models.GeoJson`1::get_Coordinates()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\Models\\PartnerModel.cs": {
+      "TM.PartnerStores.Application.Partner.Models.PartnerModel": {
+        "System.Int32 TM.PartnerStores.Application.Partner.Models.PartnerModel::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Application.Partner.Models.PartnerModel::get_TradingName()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Application.Partner.Models.PartnerModel::get_OwnerName()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Application.Partner.Models.PartnerModel::get_Document()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Partner.Models.GeoJson`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Double>>>>> TM.PartnerStores.Application.Partner.Models.PartnerModel::get_CoverageArea()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Partner.Models.GeoJson`1<System.Collections.Generic.IEnumerable`1<System.Double>> TM.PartnerStores.Application.Partner.Models.PartnerModel::get_Address()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "TM.PartnerStores.Application.Partner.Models.PartnerModel/<Validate>d__24": {
+        "System.Boolean TM.PartnerStores.Application.Partner.Models.PartnerModel/<Validate>d__24::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 95,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 147,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 199,
+              "EndOffset": 233,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 253,
+              "EndOffset": 255,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 253,
+              "EndOffset": 287,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 305,
+              "EndOffset": 307,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 305,
+              "EndOffset": 339,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 357,
+              "EndOffset": 359,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 357,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\Models\\PartnerSearch\\PartnerSearchInput.cs": {
+      "TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.PartnerSearchInput": {
+        "System.Double TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.PartnerSearchInput::get_Lat()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Double TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.PartnerSearchInput::get_Lng()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\Models\\PartnerList\\PartnerListOutput.cs": {
+      "TM.PartnerStores.Application.Partner.Models.PartnerList.PartnerListOutput": {
+        "System.Collections.Generic.List`1<TM.PartnerStores.Application.Partner.Models.PartnerModel> TM.PartnerStores.Application.Partner.Models.PartnerList.PartnerListOutput::get_Pdvs()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Application.Partner.Models.PartnerList.PartnerListOutput::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Partner\\Models\\PartnerCreation\\PartnerCreationOutput.cs": {
+      "TM.PartnerStores.Application.Partner.Models.PartnerCreation.PartnerCreationOutput": {
+        "System.String TM.PartnerStores.Application.Partner.Models.PartnerCreation.PartnerCreationOutput::get_Message()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Parsers\\PartnerApplicationServiceParser.cs": {
+      "TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser": {
+        "TM.PartnerStores.Domain.Partner.Entities.Partner TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::FromPartnerCreationInput(TM.PartnerStores.Application.Partner.Models.PartnerCreation.PartnerCreationInput)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Point TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::FromPartnerSearchInput(TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.PartnerSearchInput)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "TM.PartnerStores.Application.Partner.Models.PartnerList.PartnerListOutput TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::ToPartnerListOutput(System.Collections.Generic.IEnumerable`1<TM.PartnerStores.Domain.Partner.Entities.Partner>)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 70,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.PartnerSearchOutput TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::ToPartnerSearchOutput(TM.PartnerStores.Domain.Partner.Entities.Partner)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve.SinglePartnerRetrieveOutput TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::ToSinglePartnerRetrieveOutput(TM.PartnerStores.Domain.Partner.Entities.Partner)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Partner TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::ModelToDomain(TM.PartnerStores.Application.Partner.Models.PartnerModel)": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "T TM.PartnerStores.Application.Parsers.PartnerApplicationServiceParser::DomainToModel(TM.PartnerStores.Domain.Partner.Entities.Partner)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Operations\\ErrorOperation.cs": {
+      "TM.PartnerStores.Application.Operations.ErrorOperation`1": {
+        "TResult TM.PartnerStores.Application.Operations.ErrorOperation`1::get_Result()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Operations.ExceptionOutput TM.PartnerStores.Application.Operations.ErrorOperation`1::get_ExceptionOutput()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Application.Operations.ErrorOperation`1::get_Message()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Application.Operations.ErrorOperation`1::get_Successful()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Operations.OperationErrorType TM.PartnerStores.Application.Operations.ErrorOperation`1::get_OperationErrorType()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Application.Operations.ErrorOperation`1::.ctor(System.Exception,TM.PartnerStores.Application.Operations.OperationErrorType)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Operations\\ExceptionOutput.cs": {
+      "TM.PartnerStores.Application.Operations.ExceptionOutput": {
+        "System.Exception TM.PartnerStores.Application.Operations.ExceptionOutput::get_Exception()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Application.Operations.ExceptionOutput::.ctor(System.Exception)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Operations\\NullResultOperation.cs": {
+      "TM.PartnerStores.Application.Operations.NullResultOperation`1": {
+        "TResult TM.PartnerStores.Application.Operations.NullResultOperation`1::get_Result()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Operations.ExceptionOutput TM.PartnerStores.Application.Operations.NullResultOperation`1::get_ExceptionOutput()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Application.Operations.NullResultOperation`1::get_Message()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Application.Operations.NullResultOperation`1::get_Successful()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Application.Operations.OperationErrorType TM.PartnerStores.Application.Operations.NullResultOperation`1::get_OperationErrorType()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Application.Operations.NullResultOperation`1::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Application\\TM.PartnerStores.Application\\Operations\\SuccessfulOperation.cs": {
+      "TM.PartnerStores.Application.Operations.SuccessfulOperation`1": {
+        "TResult TM.PartnerStores.Application.Operations.SuccessfulOperation`1::get_Result()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Application.Operations.SuccessfulOperation`1::get_Successful()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Application.Operations.SuccessfulOperation`1::.ctor(TResult)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "TM.PartnerStores.Domain.dll": {
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Services\\PartnerService.cs": {
+      "TM.PartnerStores.Domain.Partner.Services.PartnerService": {
+        "System.Threading.Tasks.Task`1<TM.PartnerStores.Domain.Partner.Entities.Partner> TM.PartnerStores.Domain.Partner.Services.PartnerService::GetByIdAsync(System.Int32)": {
+          "Lines": {
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<TM.PartnerStores.Domain.Partner.Entities.Partner>> TM.PartnerStores.Domain.Partner.Services.PartnerService::ListAsync()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<TM.PartnerStores.Domain.Partner.Entities.Partner> TM.PartnerStores.Domain.Partner.Services.PartnerService::SearchAsync(TM.PartnerStores.Domain.Partner.Entities.Point)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Services.PartnerService::.ctor(TM.PartnerStores.Domain.Repositories.IPartnerRepository)": {
+          "Lines": {
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 6
+          },
+          "Branches": []
+        }
+      },
+      "TM.PartnerStores.Domain.Partner.Services.PartnerService/<CreateAsync>d__2": {
+        "System.Void TM.PartnerStores.Domain.Partner.Services.PartnerService/<CreateAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 4,
+            "24": 2,
+            "25": 3,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 89,
+              "EndOffset": 158,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 22,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 203,
+              "EndOffset": 217,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 24,
+              "Offset": 267,
+              "EndOffset": 269,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 267,
+              "EndOffset": 338,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 25,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 383,
+              "EndOffset": 397,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 433,
+              "EndOffset": 435,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 433,
+              "EndOffset": 501,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Entities\\Document.cs": {
+      "TM.PartnerStores.Domain.Partner.Entities.Document": {
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Document::ThrowIfInvalidDocument(System.String)": {
+          "Lines": {
+            "17": 53,
+            "19": 53
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Document TM.PartnerStores.Domain.Partner.Entities.Document::NewDocument(System.String)": {
+          "Lines": {
+            "22": 54,
+            "23": 54,
+            "24": 53
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Domain.Partner.Entities.Document::ToString()": {
+          "Lines": {
+            "27": 4,
+            "28": 4,
+            "29": 4
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Document::Equals(System.Object)": {
+          "Lines": {
+            "32": 7,
+            "33": 7,
+            "34": 7
+          },
+          "Branches": []
+        },
+        "System.Int32 TM.PartnerStores.Domain.Partner.Entities.Document::GetHashCode()": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Domain.Partner.Entities.Document::op_Implicit(TM.PartnerStores.Domain.Partner.Entities.Document)": {
+          "Lines": {
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Document::op_Equality(TM.PartnerStores.Domain.Partner.Entities.Document,TM.PartnerStores.Domain.Partner.Entities.Document)": {
+          "Lines": {
+            "43": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Document::op_Inequality(TM.PartnerStores.Domain.Partner.Entities.Document,TM.PartnerStores.Domain.Partner.Entities.Document)": {
+          "Lines": {
+            "45": 1
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Document::.ctor(System.String)": {
+          "Lines": {
+            "10": 54,
+            "11": 54,
+            "13": 53,
+            "14": 53
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 11,
+              "Offset": 4,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 53
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Entities\\Multipolygon.cs": {
+      "TM.PartnerStores.Domain.Partner.Entities.Multipolygon": {
+        "System.Collections.Generic.IEnumerator`1<TM.PartnerStores.Domain.Partner.Entities.Polygon> TM.PartnerStores.Domain.Partner.Entities.Multipolygon::GetEnumerator()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.IEnumerator TM.PartnerStores.Domain.Partner.Entities.Multipolygon::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Multipolygon::.ctor(System.Collections.Generic.IEnumerable`1<TM.PartnerStores.Domain.Partner.Entities.Polygon>)": {
+          "Lines": {
+            "12": 2,
+            "13": 2
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Multipolygon::.ctor(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Double>>>>)": {
+          "Lines": {
+            "15": 47,
+            "16": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 46
+            },
+            {
+              "Line": 16,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 21,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 46
+            },
+            {
+              "Line": 16,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 52,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 46
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Entities\\Partner.cs": {
+      "TM.PartnerStores.Domain.Partner.Entities.Partner": {
+        "System.Int32 TM.PartnerStores.Domain.Partner.Entities.Partner::get_Id()": {
+          "Lines": {
+            "21": 5
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Domain.Partner.Entities.Partner::get_TradingName()": {
+          "Lines": {
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Domain.Partner.Entities.Partner::get_OwnerName()": {
+          "Lines": {
+            "25": 1
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Document TM.PartnerStores.Domain.Partner.Entities.Partner::get_Document()": {
+          "Lines": {
+            "27": 12
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Multipolygon TM.PartnerStores.Domain.Partner.Entities.Partner::get_CoverageArea()": {
+          "Lines": {
+            "29": 1
+          },
+          "Branches": []
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Point TM.PartnerStores.Domain.Partner.Entities.Partner::get_Address()": {
+          "Lines": {
+            "31": 8
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Partner::.ctor(System.Int32,System.String,System.String,TM.PartnerStores.Domain.Partner.Entities.Document,TM.PartnerStores.Domain.Partner.Entities.Multipolygon,TM.PartnerStores.Domain.Partner.Entities.Point)": {
+          "Lines": {
+            "7": 45,
+            "8": 45,
+            "11": 46,
+            "13": 44,
+            "14": 44,
+            "15": 43,
+            "16": 42,
+            "17": 42,
+            "18": 81,
+            "19": 40
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 11,
+              "Offset": 14,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 44
+            },
+            {
+              "Line": 14,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 42,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 43
+            },
+            {
+              "Line": 15,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 64,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 42
+            },
+            {
+              "Line": 17,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 17,
+              "Offset": 95,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 41
+            },
+            {
+              "Line": 18,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 118,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 40
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Entities\\Point.cs": {
+      "TM.PartnerStores.Domain.Partner.Entities.Point": {
+        "System.Double TM.PartnerStores.Domain.Partner.Entities.Point::get_Lat()": {
+          "Lines": {
+            "31": 237
+          },
+          "Branches": []
+        },
+        "System.Double TM.PartnerStores.Domain.Partner.Entities.Point::get_Lng()": {
+          "Lines": {
+            "33": 235
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerator`1<System.Double> TM.PartnerStores.Domain.Partner.Entities.Point::GetEnumerator()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.IEnumerator TM.PartnerStores.Domain.Partner.Entities.Point::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Point::Equals(System.Object)": {
+          "Lines": {
+            "46": 7,
+            "47": 7,
+            "48": 0,
+            "50": 7,
+            "51": 7,
+            "52": 7
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            },
+            {
+              "Line": 50,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 6
+            },
+            {
+              "Line": 50,
+              "Offset": 32,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Int32 TM.PartnerStores.Domain.Partner.Entities.Point::GetHashCode()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Domain.Partner.Entities.Point::ToString()": {
+          "Lines": {
+            "60": 1,
+            "61": 1,
+            "62": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Point::op_Equality(TM.PartnerStores.Domain.Partner.Entities.Point,TM.PartnerStores.Domain.Partner.Entities.Point)": {
+          "Lines": {
+            "64": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Domain.Partner.Entities.Point::op_Inequality(TM.PartnerStores.Domain.Partner.Entities.Point,TM.PartnerStores.Domain.Partner.Entities.Point)": {
+          "Lines": {
+            "66": 1
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Point::.ctor(System.Double,System.Double)": {
+          "Lines": {
+            "13": 48,
+            "14": 48,
+            "15": 48,
+            "16": 48,
+            "18": 48,
+            "19": 48
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Point::.ctor(System.Collections.Generic.IEnumerable`1<System.Double>)": {
+          "Lines": {
+            "21": 173,
+            "22": 173,
+            "23": 173,
+            "25": 174,
+            "27": 172,
+            "28": 172,
+            "29": 172
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 29,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 172
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Partner\\Entities\\Polygon.cs": {
+      "TM.PartnerStores.Domain.Partner.Entities.Polygon": {
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Polygon::ThrowIfInvalidPolygon(System.Collections.Generic.List`1<TM.PartnerStores.Domain.Partner.Entities.Point>)": {
+          "Lines": {
+            "38": 5,
+            "39": 6,
+            "40": 8,
+            "41": 3
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 40,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 56,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IEnumerable`1<TM.PartnerStores.Domain.Partner.Entities.Point>> TM.PartnerStores.Domain.Partner.Entities.Polygon::GetEnumerator()": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.IEnumerator TM.PartnerStores.Domain.Partner.Entities.Polygon::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Polygon::.ctor(System.Collections.Generic.IEnumerable`1<TM.PartnerStores.Domain.Partner.Entities.Point>)": {
+          "Lines": {
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void TM.PartnerStores.Domain.Partner.Entities.Polygon::.ctor(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Collections.Generic.IEnumerable`1<System.Double>>>)": {
+          "Lines": {
+            "25": 4,
+            "26": 4,
+            "27": 63,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "33": 3,
+            "34": 1
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 27,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 63,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Exceptions\\AlreadyCreatedPartnerException.cs": {
+      "TM.PartnerStores.Domain.Exceptions.AlreadyCreatedPartnerException": {
+        "System.Void TM.PartnerStores.Domain.Exceptions.AlreadyCreatedPartnerException::.ctor(TM.PartnerStores.Domain.Partner.Entities.Partner)": {
+          "Lines": {
+            "8": 2,
+            "9": 2,
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Exceptions.AlreadyCreatedPartnerException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Exceptions\\DomainException.cs": {
+      "TM.PartnerStores.Domain.Exceptions.DomainException": {
+        "System.Void TM.PartnerStores.Domain.Exceptions.DomainException::.ctor(System.String)": {
+          "Lines": {
+            "7": 5,
+            "8": 5,
+            "9": 5
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Exceptions.DomainException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Exceptions\\InvalidPointException.cs": {
+      "TM.PartnerStores.Domain.Exceptions.InvalidPointException": {
+        "System.Void TM.PartnerStores.Domain.Exceptions.InvalidPointException::.ctor(System.String)": {
+          "Lines": {
+            "7": 1,
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Exceptions.InvalidPointException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Domain\\TM.PartnerStores.Domain\\Exceptions\\InvalidPolygonException.cs": {
+      "TM.PartnerStores.Domain.Exceptions.InvalidPolygonException": {
+        "System.Void TM.PartnerStores.Domain.Exceptions.InvalidPolygonException::.ctor(System.String)": {
+          "Lines": {
+            "7": 2,
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Domain.Exceptions.InvalidPolygonException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "TM.PartnerStores.IoC.dll": {
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.IoC\\DependencyInjectionExtension.cs": {
+      "TM.PartnerStores.IoC.DependencyInjectionExtension": {
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddPartnerStoresComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddUnitTestsPartnerStoresComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection,TM.PartnerStores.Domain.Repositories.IPartnerRepository)": {
+          "Lines": {
+            "29": 6,
+            "30": 6,
+            "31": 6,
+            "32": 6,
+            "33": 6
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddApplication(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "36": 6,
+            "37": 6,
+            "38": 6,
+            "39": 6
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddDomain(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "42": 6,
+            "43": 6,
+            "44": 6
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddMongoDBRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 26,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TM.PartnerStores.IoC.DependencyInjectionExtension::AddUnitTestsMongoDBRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection,TM.PartnerStores.Domain.Repositories.IPartnerRepository)": {
+          "Lines": {
+            "59": 6,
+            "60": 0,
+            "61": 6,
+            "62": 6,
+            "63": 6,
+            "64": 6
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        }
+      }
+    }
+  },
+  "TM.PartnerStores.Repository.MongoDB.dll": {
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Partner\\PartnerRepository.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository": {
+        "TM.PartnerStores.Domain.Partner.Entities.Partner TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository::<GetAsync>b__5_0(TM.PartnerStores.Repository.MongoDB.Model.PartnerModel)": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository::.ctor(TM.PartnerStores.Repository.MongoDB.Connection.ICollectionContext`1<TM.PartnerStores.Repository.MongoDB.Model.PartnerModel>,TM.PartnerStores.Repository.MongoDB.Parsers.IPartnerParser,TM.PartnerStores.Repository.MongoDB.Parsers.ICoordinateParser)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<CreateAsync>d__4": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<CreateAsync>d__4::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 90,
+              "EndOffset": 157,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__5": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__5::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 74,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__6": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__6::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 169,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 14,
+              "EndOffset": 271,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 274,
+              "EndOffset": 280,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 326,
+              "EndOffset": 328,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 274,
+              "EndOffset": 369,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 326,
+              "EndOffset": 398,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__7": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetAsync>d__7::MoveNext()": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 174,
+              "EndOffset": 244,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 14,
+              "EndOffset": 276,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 279,
+              "EndOffset": 285,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 331,
+              "EndOffset": 333,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 279,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 331,
+              "EndOffset": 403,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetNearstAsync>d__8": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Partner.PartnerRepository/<GetNearstAsync>d__8::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 307,
+              "EndOffset": 309,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 307,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 14,
+              "EndOffset": 411,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 414,
+              "EndOffset": 420,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 483,
+              "EndOffset": 485,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 414,
+              "EndOffset": 526,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 483,
+              "EndOffset": 555,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Parsers\\CoordinateParser.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Parsers.CoordinateParser": {
+        "TM.PartnerStores.Domain.Partner.Entities.Point TM.PartnerStores.Repository.MongoDB.Parsers.CoordinateParser::ToDomain(MongoDB.Driver.GeoJsonObjectModel.GeoJsonPoint`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates>)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "MongoDB.Driver.GeoJsonObjectModel.GeoJsonPoint`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates> TM.PartnerStores.Repository.MongoDB.Parsers.CoordinateParser::ToModel(TM.PartnerStores.Domain.Partner.Entities.Point)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 10,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "TM.PartnerStores.Domain.Partner.Entities.Multipolygon TM.PartnerStores.Repository.MongoDB.Parsers.CoordinateParser::ToDomain(MongoDB.Driver.GeoJsonObjectModel.GeoJsonMultiPolygon`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates>)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 165,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 127,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 127,
+              "EndOffset": 129,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 165,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "MongoDB.Driver.GeoJsonObjectModel.GeoJsonMultiPolygon`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates> TM.PartnerStores.Repository.MongoDB.Parsers.CoordinateParser::ToModel(TM.PartnerStores.Domain.Partner.Entities.Multipolygon)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 155,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 112,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 155,
+              "EndOffset": 157,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Parsers\\PartnerParser.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Parsers.PartnerParser": {
+        "TM.PartnerStores.Domain.Partner.Entities.Partner TM.PartnerStores.Repository.MongoDB.Parsers.PartnerParser::ToDomain(TM.PartnerStores.Repository.MongoDB.Model.PartnerModel)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "TM.PartnerStores.Repository.MongoDB.Model.PartnerModel TM.PartnerStores.Repository.MongoDB.Parsers.PartnerParser::ToModel(TM.PartnerStores.Domain.Partner.Entities.Partner)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Parsers.PartnerParser::.ctor(TM.PartnerStores.Repository.MongoDB.Parsers.ICoordinateParser)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Model\\PartnerModel.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Model.PartnerModel": {
+        "MongoDB.Bson.ObjectId TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get__id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_ApplicationId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_TradingName()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_OwnerName()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_Document()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.GeoJsonObjectModel.GeoJsonMultiPolygon`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates> TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_CoverageArea()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.GeoJsonObjectModel.GeoJsonPoint`1<MongoDB.Driver.GeoJsonObjectModel.GeoJson2DCoordinates> TM.PartnerStores.Repository.MongoDB.Model.PartnerModel::get_Address()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Migration\\DatabaseCreator.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator::SetUniqueApplicationIdIndex()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator::SetUniqueDocumentIndex()": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator::SetGeoJsonIndexes()": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator::.ctor(TM.PartnerStores.Repository.MongoDB.Connection.DbContext,TM.PartnerStores.Repository.MongoDB.Connection.ICollectionContext`1<TM.PartnerStores.Repository.MongoDB.Model.PartnerModel>)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator/<CreateIfNotExistsAsync>d__3": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator/<CreateIfNotExistsAsync>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 39,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator/<CreateIfNotExistsAsync>d__4": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Migration.DatabaseCreator/<CreateIfNotExistsAsync>d__4::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 78,
+              "EndOffset": 148,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 172,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 188,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 247,
+              "EndOffset": 249,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 285,
+              "EndOffset": 287,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 188,
+              "EndOffset": 328,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 285,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 247,
+              "EndOffset": 366,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 399,
+              "EndOffset": 406,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 447,
+              "EndOffset": 449,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 447,
+              "EndOffset": 519,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 542,
+              "EndOffset": 544,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 542,
+              "EndOffset": 551,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 399,
+              "EndOffset": 567,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 172,
+              "EndOffset": 575,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Connection\\CollectionContext.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Connection.CollectionContext`1": {
+        "MongoDB.Driver.IMongoCollection`1<T> TM.PartnerStores.Repository.MongoDB.Connection.CollectionContext`1::GetCollection()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.IMongoCollection`1<T> TM.PartnerStores.Repository.MongoDB.Connection.CollectionContext`1::<.ctor>b__4_0()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Connection.CollectionContext`1::.ctor(TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings,TM.PartnerStores.Repository.MongoDB.Connection.DbContext)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Connection\\DbContext.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Connection.DbContext": {
+        "MongoDB.Driver.IMongoDatabase TM.PartnerStores.Repository.MongoDB.Connection.DbContext::GetDatabase()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TM.PartnerStores.Repository.MongoDB.Connection.DbContext::<DatabaseExistsAsync>b__6_0(System.String)": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 98,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TM.PartnerStores.Repository.MongoDB.Connection.DbContext::.ctor(TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 36,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TM.PartnerStores.Repository.MongoDB.Connection.DbContext/<DropDatabase>d__4": {
+        "System.Void TM.PartnerStores.Repository.MongoDB.Connection.DbContext/<DropDatabase>d__4::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 78,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Users\\tmancuzo\\Source\\Repos\\TM.PartnerStores\\src\\Infrastructure\\TM.PartnerStores.Repository.MongoDB\\Connection\\MongoDBConnectionSettings.cs": {
+      "TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings": {
+        "System.String TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings::get_ConnectionString()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings::get_DatabaseName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String TM.PartnerStores.Repository.MongoDB.Connection.MongoDBConnectionSettings::get_PartnerCollectionName()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
