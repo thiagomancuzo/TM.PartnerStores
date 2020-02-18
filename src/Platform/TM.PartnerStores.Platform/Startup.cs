@@ -19,6 +19,10 @@ using TM.PartnerStores.Application.Contracts;
 using TM.PartnerStores.Application.Partner.Models.PartnerList;
 using TM.PartnerStores.IoC;
 using TM.PartnerStores.Repository.MongoDB.Migration;
+using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.AspNetCore.SwaggerUI;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.OpenApi.Models;
 
 namespace TM.PartnerStores.Platform
 {
@@ -39,12 +43,30 @@ namespace TM.PartnerStores.Platform
             {
                 c.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
             });
+
             services.AddPartnerStoresComponents(Configuration);
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Partner Stores",
+                    Description = "Partner Stores Web API",
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "PartnerStores API V1");
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -76,19 +98,19 @@ namespace TM.PartnerStores.Platform
 
             var dataObject = System.Text.Json.JsonSerializer.Deserialize<PartnerListOutput>(data, options);
 
-            foreach(var item in dataObject.Pdvs)
+            foreach (var item in dataObject.Pdvs)
             {
                 var result = await partnerApplicationService.CreateAsync(new Application.Partner.Models.PartnerCreation.PartnerCreationInput
                 {
                     Id = item.Id,
                     Address = item.Address,
                     CoverageArea = item.CoverageArea,
-                    Document= item.Document,
+                    Document = item.Document,
                     OwnerName = item.OwnerName,
                     TradingName = item.TradingName
                 });
 
-                if(!result.Successful)
+                if (!result.Successful)
                 {
                     var descriptor = result as IErrorDescriptor;
                     throw new Exception("Error while inserting initial data.", descriptor.ExceptionOutput.Exception);

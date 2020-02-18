@@ -1,6 +1,7 @@
 namespace TM.PartnerStores.UnitTests.Domain
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
     using Newtonsoft.Json;
@@ -73,7 +74,7 @@ namespace TM.PartnerStores.UnitTests.Domain
             var polygon = new Polygon(parsedPoints);
 
             //When
-            IEnumerable<IEnumerable<Point>> enumerator = polygon.GetEnumerator() as IEnumerable<IEnumerable<Point>>;
+            var enumerator = (IEnumerator<List<Point>>)polygon.GetEnumerator();
 
             //Then
             Assert.NotNull(enumerator);

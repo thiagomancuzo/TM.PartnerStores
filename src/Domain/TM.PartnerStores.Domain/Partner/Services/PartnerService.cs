@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
+    using TM.PartnerStores.Domain.Exceptions;
     using TM.PartnerStores.Domain.Partner.Entities;
     using TM.PartnerStores.Domain.Repositories;
     using TM.PartnerStores.Domain.Services;
@@ -15,9 +16,15 @@
             _partnerRepository = partnerRepository;
         }
 
-        public Task CreateAsync(Partner partner)
+        public async Task CreateAsync(Partner partner)
         {
-            return _partnerRepository.CreateAsync(partner);
+            var alreadyCreatedPartner = await _partnerRepository.GetAsync(partner.Document).ConfigureAwait(false);
+            if(alreadyCreatedPartner != null) throw new AlreadyCreatedPartnerException(partner); 
+
+            alreadyCreatedPartner = await _partnerRepository.GetAsync(partner.Id).ConfigureAwait(false);
+            if(alreadyCreatedPartner != null) throw new AlreadyCreatedPartnerException(partner); 
+
+            await _partnerRepository.CreateAsync(partner);
         }
 
         public Task<Partner> GetByIdAsync(int id)

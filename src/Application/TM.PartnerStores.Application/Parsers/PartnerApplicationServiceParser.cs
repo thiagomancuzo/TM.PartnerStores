@@ -46,7 +46,7 @@
 
         public SinglePartnerRetrieveOutput ToSinglePartnerRetrieveOutput(Partner partner)
         {
-            throw new System.NotImplementedException();
+            return DomainToModel<SinglePartnerRetrieveOutput>(partner);
         }
 
         private Partner ModelToDomain(PartnerModel model)

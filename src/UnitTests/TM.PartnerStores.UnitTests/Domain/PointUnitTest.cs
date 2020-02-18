@@ -11,13 +11,38 @@ namespace TM.PartnerStores.UnitTests.Domain
         public void Point_Creation_Should_Succeed()
         {
             //Given
-            var coordinates = new double[] { -49.1656, 25.66874 };
+            double lng = -49.1656;
+            double lat = -25.66874;
+
+            var coordinates = new double[] { lng, lat };
 
             //When
-            var point = new Point(coordinates);
+            var pointByCoordinatesList = new Point(coordinates);
+            var pointsByCoordinates = new Point(lat, lng);
 
             //Then
-            Assert.NotNull(point);
+            Assert.NotNull(pointByCoordinatesList);
+            Assert.NotNull(pointsByCoordinates);
+
+            Assert.True(pointsByCoordinates.Lng == lng);
+            Assert.True(pointsByCoordinates.Lat == lat);
+
+            Assert.True(pointByCoordinatesList.Lng == lng);
+            Assert.True(pointByCoordinatesList.Lat == lat);
+        }
+
+        [Fact]
+        public void Point_ToString_Should_Be_Formatted()
+        {
+            //Given
+            double lng = -49.1656;
+            double lat = -25.66874;
+
+            //When
+            var pointsByCoordinates = new Point(lat, lng);
+
+            //Then
+            Assert.True(pointsByCoordinates.ToString().Equals($"Lat={lat},Lng={lng}"));
         }
 
         [Fact]
@@ -30,6 +55,22 @@ namespace TM.PartnerStores.UnitTests.Domain
 
             //Then
             Assert.Throws<InvalidPointException>(pointAction);
+        }
+
+        [Fact]
+        public void Point_Equality_Should_Succeed()
+        {
+            //Given
+            var points1 = new Point(-49.1656, -25.66874);
+            var points2 = new Point(-49.1656, -25.66874);
+
+            //When
+            var trueResult = points1 == points2;
+            var falseResult = points1 != points2;
+
+            //Then
+            Assert.True(trueResult);
+            Assert.False(falseResult);
         }
     }
 }

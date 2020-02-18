@@ -38,7 +38,18 @@
 
         public async Task<Partner> GetAsync(int id)
         {
-            var filter = Builders<PartnerModel>.Filter.Eq("applicationId", id);
+            var filter = Builders<PartnerModel>.Filter.Eq(x => x.ApplicationId, id);
+
+            using (var cursor = await _database.GetCollection().FindAsync(filter).ConfigureAwait(false))
+            {
+                var dbPartner = await cursor.FirstOrDefaultAsync().ConfigureAwait(false);
+                return _partnerParser.ToDomain(dbPartner);
+            }
+        }
+
+        public async Task<Partner> GetAsync(Document document)
+        {
+            var filter = Builders<PartnerModel>.Filter.Eq(x => x.Document, document);
 
             using (var cursor = await _database.GetCollection().FindAsync(filter).ConfigureAwait(false))
             {

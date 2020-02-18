@@ -1,10 +1,8 @@
 ﻿namespace TM.PartnerStores.Repository.MongoDB.Migration
 {
     using System;
-    using System.IO;
     using System.Threading.Tasks;
     using global::MongoDB.Driver;
-    using Newtonsoft.Json;
     using TM.PartnerStores.Repository.MongoDB.Connection;
     using TM.PartnerStores.Repository.MongoDB.Model;
 
@@ -29,6 +27,7 @@
                 try
                 {
                     SetUniqueDocumentIndex();
+                    SetUniqueApplicationIdIndex();
                     SetGeoJsonIndexes();
 
                     if (runItIfCreate != null)
@@ -42,6 +41,15 @@
                     throw;
                 }
             }
+        }
+
+        private void SetUniqueApplicationIdIndex()
+        {
+            var options = new CreateIndexOptions() { Unique = true };
+            var definition = new IndexKeysDefinitionBuilder<PartnerModel>().Ascending(p => p.ApplicationId);
+            var model = new CreateIndexModel<PartnerModel>(definition, options);
+
+            _collectionContext.GetCollection().Indexes.CreateOne(model);
         }
 
         private void SetUniqueDocumentIndex()

@@ -10,6 +10,8 @@
 
         Task<Partner> GetAsync(int id);
 
+        Task<Partner> GetAsync(Document document);
+
         Task<Partner> GetNearstAsync(Point location);
 
         Task CreateAsync(Partner partner);
