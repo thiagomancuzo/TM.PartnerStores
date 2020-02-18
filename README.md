@@ -10,7 +10,7 @@ This is an WebAPI application that implements
 
 ### Performance
 
-This project delivers a great performance once it was built over aspnet core platform, that is a pretty fast one.  
+This project delivers a great performance once it was built over aspnet core platform, that is a pretty fast one and also follow the best performance pratices, e.g. singleton DI, over string eviction and over enumeration eviction.
 In a extreme performance scenario, I could separate the partner search responsability of this platform and include into another one built over GoLang (like a nano-service). The aspnet core one should be responsible for manage the partners in a relational database with mutch more fields and the GoLang nano-service one should separatelly serve the search feature with independent scalling and its own non-relational database that should be filled by a repplication triggered by a CQRS pattern in the aspnet core app. This approach will be considered in another sprint :)
 
 ### Concepts 
