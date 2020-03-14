@@ -59,7 +59,7 @@ Access http://localhost:5000/partners
 
 ### Documentation
 
-This project includes OpenAPI docs available on http://localhost:12312/swagger
+This project includes OpenAPI docs available on http://localhost:12312/docs
 
 Endpoints:
 

@@ -58,6 +58,7 @@ namespace TM.PartnerStores.WebAPI
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "PartnerStores API V1");
+                c.RoutePrefix = "docs";
             });
 
             if (env.IsDevelopment())
