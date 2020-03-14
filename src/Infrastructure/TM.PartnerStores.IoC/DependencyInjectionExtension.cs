@@ -22,6 +22,12 @@
             AddApplication(services);
         }
 
+        public static void AddUnitTestsPartnerStoresComponents(this IServiceCollection services, IPartnerRepository mockedPartnerRepository)
+        {
+            AddUnitTestsMongoDBRepository(services, mockedPartnerRepository);
+            AddApplication(services);
+        }
+
         private static void AddApplication(IServiceCollection services)
         {
             services.AddSingleton<IPartnerApplicationService, PartnerApplicationService>();
@@ -38,6 +44,14 @@
             services.AddSingleton<ICoordinateParser, CoordinateParser>();
             services.AddSingleton<IPartnerParser, PartnerParser>();
             services.AddSingleton<IPartnerRepository, PartnerRepository>();
+        }
+
+        private static void AddUnitTestsMongoDBRepository(IServiceCollection services, IPartnerRepository mockedPartnerRepository)
+        {
+            services.AddSingleton(provider => provider.GetService<IOptions<MongoDBConnectionSettings>>().Value);
+            services.AddSingleton<ICoordinateParser, CoordinateParser>();
+            services.AddSingleton<IPartnerParser, PartnerParser>();
+            services.AddSingleton(mockedPartnerRepository);
         }
     }
 }
