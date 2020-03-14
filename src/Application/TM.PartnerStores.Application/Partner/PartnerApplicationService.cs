@@ -4,90 +4,83 @@
     using System.Threading.Tasks;
     using TM.PartnerStores.Application.Contracts;
     using TM.PartnerStores.Application.Operations;
+    using TM.PartnerStores.Application.Operations.IO;
     using TM.PartnerStores.Application.Partner.Models.PartnerCreation;
     using TM.PartnerStores.Application.Partner.Models.PartnerList;
     using TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve;
     using TM.PartnerStores.Domain.Exceptions;
-    using TM.PartnerStores.Domain.Services;
+    using TM.PartnerStores.Domain.Repositories;
 
     public class PartnerApplicationService : IPartnerApplicationService
     {
         private readonly IPartnerApplicationServiceParser _parser;
-        private readonly IPartnerService _partnerService;
+        private readonly IPartnerRepository _partnerRepository;
 
-        public PartnerApplicationService(IPartnerApplicationServiceParser parser, IPartnerService partnerService)
+        public PartnerApplicationService(IPartnerApplicationServiceParser parser, IPartnerRepository partnerRepository)
         {
             _parser = parser;
-            _partnerService = partnerService;
+            _partnerRepository = partnerRepository;
         }
 
         public async Task<IApplicationOperation<PartnerCreationOutput>> CreateAsync(PartnerCreationInput input)
         {
-            try
+            return await HandleOperation<PartnerCreationOutput>(async () =>
             {
-                await _partnerService.CreateAsync(_parser.FromPartnerCreationInput(input));
-                return new SuccessfulOperation<PartnerCreationOutput>(new PartnerCreationOutput());
-            }
-            catch(DomainException ex)
-            {
-                return new ErrorOperation<PartnerCreationOutput>(ex, OperationErrorType.InvalidInput);
-            }
-            catch(Exception ex)
-            {
-                return new ErrorOperation<PartnerCreationOutput>(ex, OperationErrorType.Unknown);
-            }
+                var partner = _parser.FromPartnerCreationInput(input);
+                var alreadyCreatedPartner = await _partnerRepository.GetAsync(partner.Document).ConfigureAwait(false);
+                if (alreadyCreatedPartner != null) throw new AlreadyCreatedPartnerException(partner);
+
+                alreadyCreatedPartner = await _partnerRepository.GetAsync(partner.Id).ConfigureAwait(false);
+                if (alreadyCreatedPartner != null) throw new AlreadyCreatedPartnerException(partner);
+
+                await _partnerRepository.CreateAsync(partner);
+
+                return new PartnerCreationOutput();
+            });
         }
 
         public async Task<IApplicationOperation<SinglePartnerRetrieveOutput>> GetByIdAsync(int id)
         {
-            try
+            return await HandleOperation<SinglePartnerRetrieveOutput>(async () =>
             {
-                var partner = await _partnerService.GetByIdAsync(id);
-                if (partner == null) return new NullResultOperation<SinglePartnerRetrieveOutput>();
-                return new SuccessfulOperation<SinglePartnerRetrieveOutput>(_parser.ToSinglePartnerRetrieveOutput(partner));
-            }
-            catch (DomainException ex)
-            {
-                return new ErrorOperation<SinglePartnerRetrieveOutput>(ex, OperationErrorType.InvalidInput);
-            }
-            catch (Exception ex)
-            {
-                return new ErrorOperation<SinglePartnerRetrieveOutput>(ex, OperationErrorType.Unknown);
-            }
+                var partner = await _partnerRepository.GetAsync(id);
+                return _parser.ToSinglePartnerRetrieveOutput(partner);
+            });
         }
 
         public async Task<IApplicationOperation<PartnerListOutput>> ListAsync()
         {
-            try
+            return await HandleOperation<PartnerListOutput>(async () =>
             {
-                var partners = await _partnerService.ListAsync();
-                return new SuccessfulOperation<PartnerListOutput>(_parser.ToPartnerListOutput(partners));
-            }
-            catch (DomainException ex)
-            {
-                return new ErrorOperation<PartnerListOutput>(ex, OperationErrorType.InvalidInput);
-            }
-            catch (Exception ex)
-            {
-                return new ErrorOperation<PartnerListOutput>(ex, OperationErrorType.Unknown);
-            }
+                var partners = await _partnerRepository.GetAsync();
+                return _parser.ToPartnerListOutput(partners);
+            });
         }
 
         public async Task<IApplicationOperation<PartnerSearchOutput>> SearchAsync(PartnerSearchInput input)
         {
+            return await HandleOperation<PartnerSearchOutput>(async () =>
+            {
+                var partner = await _partnerRepository.GetNearstAsync(_parser.FromPartnerSearchInput(input));
+                return _parser.ToPartnerSearchOutput(partner);
+            });
+        }
+
+        private async Task<IApplicationOperation<T>> HandleOperation<T>(Func<Task<T>> operation) where T : IOutput
+        {
             try
             {
-                var partner = await _partnerService.SearchAsync(_parser.FromPartnerSearchInput(input));
-                if (partner == null) return new NullResultOperation<PartnerSearchOutput>();
-                return new SuccessfulOperation<PartnerSearchOutput>(_parser.ToPartnerSearchOutput(partner));
+                var result = await operation();
+                if (result == null) return new NullResultOperation<T>();
+                return new SuccessfulOperation<T>(result);
             }
             catch (DomainException ex)
             {
-                return new ErrorOperation<PartnerSearchOutput>(ex, OperationErrorType.InvalidInput);
+                return new ErrorOperation<T>(ex, OperationErrorType.InvalidInput);
             }
             catch (Exception ex)
             {
-                return new ErrorOperation<PartnerSearchOutput>(ex, OperationErrorType.Unknown);
+                return new ErrorOperation<T>(ex, OperationErrorType.Unknown);
             }
         }
     }

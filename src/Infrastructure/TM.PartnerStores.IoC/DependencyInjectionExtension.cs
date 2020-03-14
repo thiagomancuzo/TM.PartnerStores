@@ -7,9 +7,7 @@
     using TM.PartnerStores.Application.Contracts;
     using TM.PartnerStores.Application.Parsers;
     using TM.PartnerStores.Application.Partner;
-    using TM.PartnerStores.Domain.Partner.Services;
     using TM.PartnerStores.Domain.Repositories;
-    using TM.PartnerStores.Domain.Services;
     using TM.PartnerStores.Repository.MongoDB.Connection;
     using TM.PartnerStores.Repository.MongoDB.Migration;
     using TM.PartnerStores.Repository.MongoDB.Parsers;
@@ -21,7 +19,6 @@
         public static void AddPartnerStoresComponents(this IServiceCollection services, IConfiguration configuration)
         {
             AddMongoDBRepository(services, configuration);
-            AddDomain(services);
             AddApplication(services);
         }
 
@@ -29,11 +26,6 @@
         {
             services.AddSingleton<IPartnerApplicationService, PartnerApplicationService>();
             services.AddSingleton<IPartnerApplicationServiceParser, PartnerApplicationServiceParser>();
-        }
-
-        private static void AddDomain(IServiceCollection services)
-        {
-            services.AddSingleton<IPartnerService, PartnerService>();
         }
 
         private static void AddMongoDBRepository(IServiceCollection services, IConfiguration configuration)

@@ -41,16 +41,22 @@
 
         public PartnerSearchOutput ToPartnerSearchOutput(Partner partner)
         {
+            if(partner == null) return null;
+
             return DomainToModel<PartnerSearchOutput>(partner);
         }
 
         public SinglePartnerRetrieveOutput ToSinglePartnerRetrieveOutput(Partner partner)
         {
+            if(partner == null) return null;
+
             return DomainToModel<SinglePartnerRetrieveOutput>(partner);
         }
 
         private Partner ModelToDomain(PartnerModel model)
         {
+            if(model == null) return null;
+            
             return new Partner(
                 model.Id,
                 model.TradingName,
