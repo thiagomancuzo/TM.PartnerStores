@@ -89,4 +89,4 @@ The tests was written for domain layer, that is the one that have most sensitive
 
 | Module                              | Line   | Branch | Method |
 |-------------------------------------|--------|------- |--------|
-| TM.PartnerStores.Domain             | 80%    | 92%    | 79,59% |
+| TM.PartnerStores.Domain             | 76,92% | 97,5%  | 77,27% |
