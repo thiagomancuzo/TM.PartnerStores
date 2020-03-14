@@ -9,7 +9,7 @@ using TM.PartnerStores.Application.Operations;
 using TM.PartnerStores.Application.Partner.Models.PartnerCreation;
 using TM.PartnerStores.Application.Partner.Models.SinglePartnerRetrieve;
 
-namespace TM.PartnerStores.Platform.Controllers
+namespace TM.PartnerStores.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

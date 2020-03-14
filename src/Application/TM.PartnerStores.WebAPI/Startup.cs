@@ -24,7 +24,7 @@ using Swashbuckle.AspNetCore.SwaggerUI;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.OpenApi.Models;
 
-namespace TM.PartnerStores.Platform
+namespace TM.PartnerStores.WebAPI
 {
     public class Startup
     {

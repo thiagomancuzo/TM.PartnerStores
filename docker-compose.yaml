@@ -3,7 +3,7 @@ services:
     web:
         build: 
             context: .
-            dockerfile: src/Platform/TM.PartnerStores.Platform/Dockerfile
+            dockerfile: src/Application/TM.PartnerStores.WebAPI/Dockerfile
         ports:
             - "12312:80"
         depends_on:

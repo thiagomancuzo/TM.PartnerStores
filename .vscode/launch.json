@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/bin/Debug/netcoreapp3.1/TM.PartnerStores.Platform.dll",
+            "program": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/bin/Debug/netcoreapp3.1/TM.PartnerStores.WebAPI.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/bin/Debug/netcoreapp3.1/",
+            "cwd": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/bin/Debug/netcoreapp3.1/",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
@@ -27,7 +27,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
+                "appProject": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj"
             }
         }
     ]

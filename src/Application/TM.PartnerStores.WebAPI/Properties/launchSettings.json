@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TM.PartnerStores.Platform": {
+    "TM.PartnerStores.WebAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

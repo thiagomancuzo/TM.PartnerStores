@@ -6,7 +6,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
+                "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -19,12 +19,12 @@
             "dockerBuild": {
                 "tag": "tmpartnerstores:dev",
                 "target": "base",
-                "dockerfile": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/Dockerfile",
+                "dockerfile": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
+                "appProject": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj"
             }
         },
         {
@@ -35,12 +35,12 @@
             ],
             "dockerBuild": {
                 "tag": "tmpartnerstores:latest",
-                "dockerfile": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/Dockerfile",
+                "dockerfile": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
+                "appProject": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj"
             }
         },
         {
@@ -51,7 +51,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj",
+                "appProject": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj",
                 "enableDebugging": true
             }
         },
@@ -63,7 +63,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/src/Platform/TM.PartnerStores.Platform/TM.PartnerStores.Platform.csproj"
+                "appProject": "${workspaceFolder}/src/Application/TM.PartnerStores.WebAPI/TM.PartnerStores.WebAPI.csproj"
             }
         }
     ]

@@ -35,7 +35,7 @@ docker-compose up
 
 and access http://localhost:12312/partners  
 
-> To change any configurations you can access the `docker-compose.yaml` file on the repository root folder or access the application configuration file `src/Platform/TM.PartnerStores.Platform/appsettings.json` (maybe you need to configure a different mongodb address or port)
+> To change any configurations you can access the `docker-compose.yaml` file on the repository root folder or access the application configuration file `src/Application/TM.PartnerStores.WebAPI/appsettings.json` (maybe you need to configure a different mongodb address or port)
 
 ### Debugging
 
@@ -45,7 +45,7 @@ Requirements:
 - dotnet SDK (v3.1)
 - mongodb (or an already running container image)
 
-In the folder `src/Platform/TM.PartnerStores.Platform/`, run:
+In the folder `src/Application/TM.PartnerStores.WebAPI/`, run:
 
 ```bash
 dotnet run
@@ -55,7 +55,7 @@ Or open the repository root folder with VSCode and press F5!
 
 Access http://localhost:5000/partners  
 
-> To change any configurations you can access the application configuration file `src/Platform/TM.PartnerStores.Platform/appsettings.json` (you'll need to configure a different mongodb address or port)
+> To change any configurations you can access the application configuration file `src/Application/TM.PartnerStores.WebAPI/appsettings.json` (you'll need to configure a different mongodb address or port)
 
 ### Documentation
 
